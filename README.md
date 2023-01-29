@@ -6,7 +6,6 @@ Telegram bot for style transfer
 Этот бот создан в рамках учебного проекта по первой части курса DLS ([Deep learning school](https://dls.samcs.ru/)), и он умеет накладывать стиль одной картинки на другую.
 
 Исходная картинка:
-![](https://drive.google.com/file/d/1xFav9oGS1oEplBpuSlOWT0FrUyTbYGG2/view?usp=sharing)
 
 Принцип работы нейросети взят из [руководства](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) Pytorch. В основе - натренированная сеть VGG19, в которую добавлены дополнительные модули нормализации и лоссов.
 

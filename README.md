@@ -7,6 +7,25 @@ Telegram bot for style transfer
 
 Исходная картинка:
 
+![orig](https://github.com/alevtina99/Style-transfer-Bot/blob/main/pics/IMG_20230129_192407.jpg)
+
++ Пикассо:
+
+![picasso](https://github.com/alevtina99/Style-transfer-Bot/blob/main/pics/IMG_20230129_195725_221.jpg)
+
++ Баския:
+
+![basquiat](https://github.com/alevtina99/Style-transfer-Bot/blob/main/pics/IMG_20230129_195733_995.jpg)
+
++ Матисс (моя любимая):
+
+![matisse](https://github.com/alevtina99/Style-transfer-Bot/blob/main/pics/IMG_20230129_195736_355.jpg)
+
+## Что интересного есть в репозитории (кроме папки с картинками, конечно):
+* .env.example - пример файла с токеном бота (токен нерабочий, при клонировании репозитория нужно создать свой файл .env с токеном своего бота)
+* main.py - скрипт работы бота
+* net.py - файл с классом Net, где собирается и обрабатывает картинки наша сеть
+
 Принцип работы нейросети взят из [руководства](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) Pytorch. В основе - натренированная сеть VGG19, в которую добавлены дополнительные модули нормализации и лоссов.
 
 Сам бот написан с помощью асинхронной библиотеки aiogram, обновления собираются с помощью поллинга.
